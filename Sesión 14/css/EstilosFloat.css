@@ -1,0 +1,31 @@
+header{
+    background-color: navy;
+    color:bisque;
+    height: 200px;
+    
+}
+nav{
+    background-color:darkmagenta;
+    width: 15%;
+    color: white;
+    height: 400px;
+}
+section{
+    background-color: indigo;
+    width: 70%;
+    color: white;
+    height: 400px;
+}
+aside{
+    background-color: rebeccapurple;
+    width: 15%;
+    color: whitesmoke;
+    height: 400px;
+}
+footer{
+    background-color: aliceblue;
+    clear: left;
+}
+nav, aside, section{
+    float: left;
+}

@@ -1,0 +1,48 @@
+.grid{
+    margin: 0px auto;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-areas: "myheader1 myheader2"
+                         "my-nav my-nav" "my-main my-main" "my-aside my-aside"
+                         "my-footer my-footer";
+
+}
+#header1{
+    text-align: center;
+    grid-area: myheader1;
+}
+#header2{
+    grid-area: myheader2;
+    
+}
+
+header{
+    grid-area: my-header;
+    background-color: white;
+}
+nav{
+    grid-area: my-nav;
+    background-color:olivedrab;
+    color: white;
+}
+main{
+    grid-area: my-main;
+    background-color: darkslateblue;
+    color: white;
+}
+#content{
+    background-color: honeydew;
+    margin-top: 5%;
+}
+aside{
+    grid-area: my-aside;
+    background-color: blueviolet;
+    color:white;
+}
+footer{
+    grid-area: my-footer;
+    background-color: indigo;
+    color: white;
+}

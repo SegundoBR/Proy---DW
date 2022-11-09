@@ -1,0 +1,36 @@
+p::first-letter{
+    font-size: 2rem;
+}
+
+.pseudoele{
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+}
+
+.pseudoele::before {
+    content: "Hola";
+    background-color: darkseagreen;
+}
+
+.pseudoele::after{
+    content: "Hola";
+    background-color: crimson;
+}
+
+.pseudoclase:hover{
+    background-color: yellow;
+}
+
+a:hover{
+    color: brown;
+}
+
+/* Solo para etiquetas de enlace */
+a:focus{
+    color: green;
+}
+
+a:active{
+    color: cyan;
+}

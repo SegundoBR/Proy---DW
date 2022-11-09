@@ -1,0 +1,44 @@
+header{
+background-color:darkred;
+color: antiquewhite;
+height: 80px;
+}
+
+nav {
+background-color:black;
+color: antiquewhite;
+width: 25%;
+}
+
+section {
+background-color: bisque;
+width: 75%;
+}
+article{
+margin-right: 8px;
+margin-left: 8px;
+}
+
+footer{
+background-color: brown;
+clear: both;
+height: 80px;
+}
+nav, section{
+    float: left;
+    height: 600px;
+}
+#encabezado{
+    margin-top: 0px;
+
+}
+li{
+    padding-left: 3%;
+    margin-right: 10%;
+    list-style-type:square;
+    border: 1px solid whitesmoke;
+}
+
+#PieDePagina{
+    margin-top: 20px;
+}

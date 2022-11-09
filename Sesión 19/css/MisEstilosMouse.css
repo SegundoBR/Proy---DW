@@ -1,0 +1,10 @@
+#IMGbox{
+    background: url("/Sesión 19/img/frontis_usat.jpg");
+    background-size: 100%;
+    height: 700px;
+    width: 450px;
+    background-repeat: no-repeat;
+
+}
+#texto{display:none;} /*ocultas el contenido*/
+#IMGbox:hover #texto {display:block;} /*lo mostras cuando haces hover en #caja*/

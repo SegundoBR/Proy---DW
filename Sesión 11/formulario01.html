@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Cinematográfica </title> 
+    
+    <link rel="icon" href="img/54517514b7e9c8c21cb1526176c30732.jpg">
+</head>
+<body>
+    <div id="contenedor">
+        <h2>Encuesta de Cine: Películas Nominadas al Oscar 2022 <img src="img/oscar-icon-oscar-cinema-20.png" alt="Logo Oscar" style="height: 50px;" ></h2>
+        
+        <form id="formulario1" name="Formulario 1" action="" method="post">
+            <fieldset id="datos_personales">
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"><br>
+                <label for="dni">DNI</label>
+                <input type="text" name="dni" id="dni"><br>
+                <label for="edad">Edad</label>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+                <label for="sexo">Sexo</label><br>
+                <select id="sexo" name="sexo" > 
+                    <option value="X" selected="selected"></option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Mejor Película</legend>
+                <input type="radio" name="pelicula" value="11"> The Northman <br>
+                <input type="radio" name="pelicula" value="22"> Everything in Everywhere <br>
+                <input type="radio" name="pelicula" value="33"> Knives Out 2 <br>
+                <input type="radio" name="pelicula" value="44"> Otra 
+                <input type="text" name="pelicula2" id="pelicula2" ><br>
+             </fieldset>
+            
+            <fieldset id="grupo argumento">
+                <legend>Argumento de tu Película Favorita</legend>
+                <textarea name="argumento" id="argumento" cols="50" rows="14"></textarea>
+
+            </fieldset>
+            <br>
+            <input type="reset" value="Borrar Formulario">
+            <input type="submit" value="Enviar">
+             
+        </form>
+
+    </div>
+</body>
+</html>

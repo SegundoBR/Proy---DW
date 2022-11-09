@@ -1,0 +1,20 @@
+h1#Caja2{
+    color:black;
+}
+h3#Caja3{
+    color: darkred;
+}
+
+#Caja5{
+    background-color: brown;
+}
+
+img#Imagen{
+    height: 500px;
+    width: 2500px;
+    float: right;
+}
+
+h4#Subtitulo{
+    font-style: normal;
+}

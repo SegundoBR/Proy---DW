@@ -1,0 +1,7 @@
+a[class="externo"]{
+    color: blue;
+}
+a[href^="mailto:"]{
+    font-family: Verdana;
+    color: mediumvioletred;
+}
